@@ -27,15 +27,15 @@ body{font-family:'Oxanium',system-ui,sans-serif;color:var(--txt)}
 #tut-dots{display:flex;justify-content:center;gap:5px;margin-bottom:8px}
 .tdot{width:6px;height:6px;border-radius:50%;background:var(--b2);transition:all .2s}
 .tdot.on{background:var(--acc)}.tdot.done{background:#3d8fff44}
-#tut-ico{font-size:20px;margin-bottom:5px}
-#tut-ttl{font-size:13px;font-weight:700;color:var(--wht);margin-bottom:5px;letter-spacing:.03em}
-#tut-msg{font-size:10px;color:#7a98b8;line-height:1.6;margin-bottom:10px}
+#tut-ico{font-size:26px;margin-bottom:5px}
+#tut-ttl{font-size:16px;font-weight:700;color:var(--wht);margin-bottom:5px;letter-spacing:.03em}
+#tut-msg{font-size:13px;color:#7a98b8;line-height:1.6;margin-bottom:10px}
 #tut-btns{display:flex;flex-direction:column;align-items:stretch;gap:8px;margin-top:14px}
-#tut-dismiss{font-size:10px;color:#4a6888;background:none;border:none;cursor:pointer;
+#tut-dismiss{font-size:12px;color:#4a6888;background:none;border:none;cursor:pointer;
   padding:2px 0;font-family:'Oxanium',sans-serif;letter-spacing:.03em;
   text-decoration:underline;text-underline-offset:3px;width:100%;text-align:center}
 #tut-dismiss:hover{color:#7a9ac0}
-#tut-advance{font-size:12px;font-weight:700;background:var(--acc);border:none;border-radius:5px;
+#tut-advance{font-size:14px;font-weight:700;background:var(--acc);border:none;border-radius:5px;
   color:#04080f;padding:9px 16px;cursor:pointer;font-family:'Oxanium',sans-serif;
   letter-spacing:.06em;width:100%;text-transform:uppercase}
 #tut-advance:hover{opacity:.85}
@@ -50,12 +50,12 @@ body{font-family:'Oxanium',system-ui,sans-serif;color:var(--txt)}
   background:var(--panel);border-bottom:1px solid var(--b1);flex-shrink:0;min-height:58px}
 #logo-img{width:38px;height:38px;border-radius:5px;object-fit:cover;flex-shrink:0}
 #top-title{flex:1;line-height:1.2}
-#top-title h1{font-size:12px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:var(--wht)}
-#top-title p{font-size:9px;letter-spacing:.14em;text-transform:uppercase;color:#5a7a9a}
+#top-title h1{font-size:16px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:var(--wht)}
+#top-title p{font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:#5a7a9a}
 .tseg{display:flex;flex-direction:column;align-items:center;padding:0 10px;border-left:1px solid var(--b1);gap:1px;flex-shrink:0}
-.tseg .v{font-family:'Space Mono',monospace;font-size:16px;font-weight:700;color:var(--wht);line-height:1}
+.tseg .v{font-family:'Space Mono',monospace;font-size:19px;font-weight:700;color:var(--wht);line-height:1}
 .tseg .v.gold{color:var(--gold)}.tseg .v.grn{color:var(--grn)}.tseg .v.acc{color:var(--acc)}
-.tseg .l{font-size:9px;letter-spacing:.1em;text-transform:uppercase;color:#5a7a9a}
+.tseg .l{font-size:12px;letter-spacing:.1em;text-transform:uppercase;color:#5a7a9a}
 #chip.fly{border-color:#3d8fff55;color:var(--acc)}
 #chip.orb{border-color:#2edc7a55;color:var(--grn)}
 #chip.esc{border-color:#f0c03055;color:var(--gold)}
@@ -84,16 +84,16 @@ canvas{position:absolute;inset:0;width:100%;height:100%}
 .cb-ctrl{flex:1;min-width:0;padding:14px 20px;border-right:1px solid #1a2840;display:flex;flex-direction:column;justify-content:center}
 .cb-ctrl:last-child{border-right:none}
 .cb-row{display:flex;justify-content:space-between;align-items:baseline;margin-bottom:6px}
-.cb-label{font-size:10px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:#6a88a8}
-.cb-val{font-family:'Space Mono',monospace;font-size:13px;font-weight:700;color:var(--wht)}
+.cb-label{font-size:13px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:#6a88a8}
+.cb-val{font-family:'Space Mono',monospace;font-size:16px;font-weight:700;color:var(--wht)}
 .cb-val.gold{color:var(--gold)}
-.cb-hint{font-size:9px;color:#3a5878;margin-top:4px;letter-spacing:.02em}
+.cb-hint{font-size:13px;color:#3a5878;margin-top:4px;letter-spacing:.02em}
 /* Buttons section */
 .cb-divider{display:none}
 #cb-buttons{display:flex;align-items:center;gap:10px;padding:0 20px;
   border-left:1px solid #1a2840;flex-shrink:0}
 .cb-btn{padding:0 28px;height:44px;border-radius:5px;font-family:'Oxanium',sans-serif;
-  font-size:14px;font-weight:700;letter-spacing:.1em;cursor:pointer;transition:all .15s;
+  font-size:16px;font-weight:700;letter-spacing:.1em;cursor:pointer;transition:all .15s;
   text-transform:uppercase;border:none;white-space:nowrap}
 .cb-btn.launch{background:var(--acc);color:#03060e;min-width:110px}
 .cb-btn.launch:hover{background:#5aaeff}
@@ -110,28 +110,28 @@ canvas{position:absolute;inset:0;width:100%;height:100%}
 #ctrl-bar input[type=range].g::-webkit-slider-thumb{background:var(--gold);box-shadow:0 0 6px #f0c03055}
 .sec{padding:10px 12px;border-bottom:1px solid var(--b1);flex-shrink:0}
 .sec.grow{flex:1;overflow-y:auto;padding-bottom:12px}
-.slbl{font-size:9px;letter-spacing:.15em;text-transform:uppercase;color:#6a88a8;margin-bottom:7px;font-weight:700}
+.slbl{font-size:12px;letter-spacing:.15em;text-transform:uppercase;color:#6a88a8;margin-bottom:7px;font-weight:700}
 
 /* MISSION */
 #mbox{background:var(--bg);border:1px solid var(--b1);border-radius:6px;padding:8px 10px;margin-bottom:7px}
-#mnum{font-size:8px;letter-spacing:.14em;text-transform:uppercase;color:#5a7a9a;margin-bottom:2px}
-#mname{font-size:15px;font-weight:700;color:var(--wht);line-height:1.2}
-#mdesc{font-size:11px;color:var(--wht);margin-top:5px;line-height:1.55}
+#mnum{font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:#5a7a9a;margin-bottom:2px}
+#mname{font-size:19px;font-weight:700;color:var(--wht);line-height:1.2}
+#mdesc{font-size:14px;color:var(--wht);margin-top:5px;line-height:1.55}
 
 /* STAR COUNTER */
 #star-row{display:flex;align-items:center;gap:6px;margin-top:7px;flex-wrap:wrap}
 .star-pip{width:18px;height:18px;border-radius:50%;border:1px solid var(--b2);
-  display:flex;align-items:center;justify-content:center;font-size:9px;transition:all .3s;
+  display:flex;align-items:center;justify-content:center;font-size:12px;transition:all .3s;
   background:var(--bg);color:#4a6888}
 .star-pip.hit{background:#f0c03022;border-color:#f0c03088;color:var(--gold)}
 
 /* CONTROLS */
 .ctrl{margin-bottom:9px}.ctrl:last-child{margin-bottom:0}
 .crow{display:flex;justify-content:space-between;align-items:baseline;margin-bottom:4px}
-.cname{font-size:13px;font-weight:600;color:var(--txt)}
-.cval{font-family:'Space Mono',monospace;font-size:12px;color:var(--acc)}
+.cname{font-size:16px;font-weight:600;color:var(--txt)}
+.cval{font-family:'Space Mono',monospace;font-size:15px;color:var(--acc)}
 .cval.g{color:var(--gold)}
-.chint{font-size:10px;color:#6a88a8;margin-top:3px;line-height:1.4}
+.chint{font-size:13px;color:#6a88a8;margin-top:3px;line-height:1.4}
 input[type=range]{width:100%;height:2px;-webkit-appearance:none;appearance:none;
   background:var(--b1);border-radius:1px;outline:none;cursor:pointer;display:block}
 input[type=range]::-webkit-slider-thumb{-webkit-appearance:none;width:12px;height:12px;
@@ -142,19 +142,125 @@ input[type=range].g::-webkit-slider-thumb{background:var(--gold)}
 /* TELEMETRY */
 .tgrid{display:grid;grid-template-columns:1fr 1fr;gap:4px}
 .tb{background:var(--bg);border:1px solid var(--b1);border-radius:4px;padding:5px 7px}
-.tb .tl{font-size:9px;letter-spacing:.08em;text-transform:uppercase;color:#5a7890;margin-bottom:2px}
-.tb .tv{font-family:'Space Mono',monospace;font-size:11px;color:var(--wht);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.tb .tl{font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:#5a7890;margin-bottom:2px}
+.tb .tv{font-family:'Space Mono',monospace;font-size:14px;color:var(--wht);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
 .tb .tv.g{color:var(--grn)}.tb .tv.w{color:var(--gold)}.tb .tv.r{color:var(--red)}
 
 /* BUTTONS */
 .brow{display:flex;gap:5px}
 .btn{flex:1;padding:8px 0;border-radius:6px;border:1px solid var(--b1);
-  background:transparent;color:var(--txt);font-family:'Oxanium',sans-serif;font-size:12px;
+  background:transparent;color:var(--txt);font-family:'Oxanium',sans-serif;font-size:15px;
   font-weight:700;cursor:pointer;letter-spacing:.08em;transition:all .12s;text-transform:uppercase}
 .btn:hover{background:var(--b1)}.btn:disabled{opacity:.3;cursor:default}
 .btn.p{background:var(--acc);border-color:var(--acc);color:#040810}
 .btn.p:hover{opacity:.85}
 
+
+/* Floating hint widget on the canvas */
+#hint-widget{position:absolute;bottom:14px;right:14px;z-index:6;
+  max-width:320px;display:flex;flex-direction:column;align-items:flex-end;gap:8px}
+#btn-hint{background:rgba(10,13,26,.85);border:1px solid var(--b2);
+  color:var(--gold);font-family:'Oxanium',sans-serif;font-size:13px;font-weight:700;
+  padding:9px 16px;border-radius:6px;cursor:pointer;letter-spacing:.04em;
+  backdrop-filter:blur(4px);transition:all .15s;white-space:nowrap}
+#btn-hint:hover{background:rgba(15,20,40,.95);border-color:var(--gold)}
+#hint-box{background:rgba(20,14,4,.92);border:1px solid #f0c03055;
+  border-radius:6px;padding:10px 13px;font-family:'Space Mono',monospace;
+  font-size:13px;color:#f0d070;line-height:1.55;backdrop-filter:blur(4px);
+  box-shadow:0 4px 24px rgba(240,192,48,.18);max-width:300px}
+/* Sim speed selector (bottom-left of canvas) */
+#sim-speed{position:absolute;bottom:14px;left:14px;z-index:6;
+  display:flex;align-items:center;gap:5px;background:rgba(10,13,26,.85);
+  border:1px solid var(--b2);border-radius:6px;padding:5px 8px;
+  backdrop-filter:blur(4px)}
+.ss-label{font-size:10px;font-weight:700;letter-spacing:.14em;color:#6a88a8;
+  padding-right:5px;border-right:1px solid var(--b1);margin-right:2px}
+.ss-btn{background:transparent;border:none;color:#7a98b8;font-family:'Oxanium',sans-serif;
+  font-size:12px;font-weight:700;padding:4px 9px;border-radius:4px;cursor:pointer;
+  transition:all .12s;letter-spacing:.03em}
+.ss-btn:hover{background:rgba(61,143,255,.12);color:var(--wht)}
+.ss-btn.active{background:var(--acc);color:#04080f;box-shadow:0 0 10px rgba(61,143,255,.35)}
+/* Mission intro card — shown at start of each mission */
+#mission-intro{position:absolute;inset:0;z-index:7;
+  background:rgba(4,8,20,.78);backdrop-filter:blur(3px);
+  display:flex;align-items:center;justify-content:center;padding:20px;
+  transition:opacity .25s}
+#mission-intro.hidden{display:none}
+#mi-card{background:var(--panel);border:1px solid var(--acc);border-radius:12px;
+  padding:32px 36px;max-width:520px;width:100%;text-align:center;
+  box-shadow:0 0 48px rgba(61,143,255,.2)}
+#mi-num{font-size:12px;font-weight:700;letter-spacing:.2em;color:var(--acc);margin-bottom:10px}
+#mi-name{font-size:28px;font-weight:700;color:var(--wht);margin-bottom:14px;
+  letter-spacing:.02em;line-height:1.2}
+#mi-desc{font-size:15px;color:#9bbbd8;line-height:1.65;margin-bottom:24px}
+#mi-ok{background:var(--acc);border:none;border-radius:7px;color:#03060e;
+  padding:13px 36px;font-family:'Oxanium',sans-serif;font-size:15px;font-weight:700;
+  letter-spacing:.08em;cursor:pointer;text-transform:uppercase;transition:all .15s;
+  box-shadow:0 0 24px rgba(61,143,255,.3)}
+#mi-ok:hover{background:#5aaeff;transform:translateY(-1px);box-shadow:0 0 32px rgba(61,143,255,.5)}
+
+/* Telemetry fact callout — appears after launch pointing at a telemetry cell */
+#telem-fact{position:fixed;z-index:45;pointer-events:none;
+  top:0;left:0;width:100vw;height:100vh;transition:opacity .25s}
+#telem-fact.hidden{display:none}
+#tf-card{position:absolute;pointer-events:auto;background:var(--panel);
+  border:2px solid var(--gold);border-radius:9px;padding:14px 18px;
+  max-width:300px;box-shadow:0 4px 32px rgba(240,192,48,.3);
+  animation:tfPop .4s ease-out}
+@keyframes tfPop{0%{transform:scale(.7);opacity:0}100%{transform:scale(1);opacity:1}}
+#tf-text{font-size:14px;color:var(--wht);line-height:1.5;margin-bottom:10px;font-weight:600}
+#tf-dismiss{background:var(--gold);color:#1a1000;border:none;border-radius:5px;
+  font-family:'Oxanium',sans-serif;font-size:12px;font-weight:700;padding:7px 16px;
+  cursor:pointer;letter-spacing:.06em;text-transform:uppercase;float:right}
+#tf-dismiss:hover{background:#ffd650}
+/* SVG-based arrow from card to target */
+#tf-arrow{position:absolute;pointer-events:none}
+.tf-pulse{animation:tfPulse 1.2s ease-in-out infinite;outline:2px solid var(--gold);
+  outline-offset:3px;border-radius:6px}
+@keyframes tfPulse{0%,100%{outline-color:var(--gold);box-shadow:0 0 0 0 rgba(240,192,48,.5)}
+  50%{outline-color:#ffd650;box-shadow:0 0 0 8px rgba(240,192,48,0)}}
+
+
+/* Speed slider markers: orbit (green) & escape (gold) */
+.spd-mark{position:absolute;top:-2px;width:3px;height:13px;border-radius:2px;
+  pointer-events:none;opacity:.95}
+.spd-mark::after{position:absolute;top:15px;left:50%;transform:translateX(-50%);
+  font-family:'Space Mono',monospace;font-size:11px;font-weight:700;letter-spacing:.02em;
+  white-space:nowrap;padding:1px 5px;border-radius:3px}
+.spd-orb{left:calc(43.94% - 1.5px);background:var(--grn);box-shadow:0 0 6px rgba(46,220,122,.7)}
+.spd-orb::after{content:'17.5k';color:var(--grn);background:rgba(46,220,122,.12);
+  border:1px solid rgba(46,220,122,.35)}
+.spd-esc{left:calc(66.67% - 1.5px);background:var(--gold);box-shadow:0 0 6px rgba(240,192,48,.7)}
+.spd-esc::after{content:'25k';color:var(--gold);background:rgba(240,192,48,.12);
+  border:1px solid rgba(240,192,48,.35)}
+/* Zero marker on angle slider */
+.slider-wrap{position:relative;width:100%;margin-bottom:18px}
+.slider-zero-mark{position:absolute;left:50%;top:-2px;transform:translateX(-50%);
+  width:3px;height:13px;background:var(--gold);border-radius:2px;
+  pointer-events:none;opacity:.9;box-shadow:0 0 6px rgba(240,192,48,.6)}
+.slider-zero-mark::after{content:'0°';position:absolute;top:15px;left:50%;
+  transform:translateX(-50%);font-family:'Space Mono',monospace;font-size:11px;
+  font-weight:700;letter-spacing:.02em;color:var(--gold);
+  padding:1px 5px;border-radius:3px;background:rgba(240,192,48,.12);
+  border:1px solid rgba(240,192,48,.35)}
+/* First-orbit-miss callout — points at the RESET button */
+#miss-callout{position:fixed;z-index:46;pointer-events:none;
+  top:0;left:0;width:100vw;height:100vh;transition:opacity .25s}
+#miss-callout.hidden{display:none}
+#mc-card{position:absolute;pointer-events:auto;background:var(--panel);
+  border:2px solid var(--red);border-radius:9px;padding:14px 18px;
+  max-width:320px;box-shadow:0 4px 32px rgba(255,68,68,.3);
+  animation:tfPop .4s ease-out}
+#mc-text{font-size:14px;color:var(--wht);line-height:1.5;margin-bottom:10px;font-weight:600}
+#mc-dismiss{background:var(--red);color:#200000;border:none;border-radius:5px;
+  font-family:'Oxanium',sans-serif;font-size:12px;font-weight:700;padding:7px 16px;
+  cursor:pointer;letter-spacing:.06em;text-transform:uppercase;float:right}
+#mc-dismiss:hover{background:#ff6a6a}
+#mc-arrow{position:absolute;pointer-events:none}
+.mc-pulse{animation:mcPulse 1.2s ease-in-out infinite;
+  outline:2px solid var(--red);outline-offset:3px;border-radius:6px}
+@keyframes mcPulse{0%,100%{outline-color:var(--red);box-shadow:0 0 0 0 rgba(255,68,68,.5)}
+  50%{outline-color:#ff6a6a;box-shadow:0 0 0 8px rgba(255,68,68,0)}}
 /* OVERLAY */
 #overlay{position:absolute;inset:0;background:rgba(4,6,14,.88);
   display:flex;align-items:center;justify-content:center;z-index:10;backdrop-filter:blur(3px)}
@@ -162,52 +268,105 @@ input[type=range].g::-webkit-slider-thumb{background:var(--gold)}
 #modal{background:var(--panel);border:1px solid var(--b2);border-radius:10px;
   padding:26px 30px;max-width:340px;width:90%;text-align:center}
 .mo-i{font-size:38px;margin-bottom:10px;line-height:1}
-.mo-h{font-size:19px;font-weight:800;color:var(--wht);letter-spacing:.06em;text-transform:uppercase;margin-bottom:6px}
-.mo-st{font-size:22px;letter-spacing:4px;margin-bottom:5px}
+.mo-h{font-size:24px;font-weight:800;color:var(--wht);letter-spacing:.06em;text-transform:uppercase;margin-bottom:6px}
+.mo-st{font-size:32px;letter-spacing:6px;margin-bottom:8px;line-height:1}
+.mo-st .collected{color:var(--gold);text-shadow:0 0 14px rgba(240,192,48,.6)}
+.mo-st .missed{color:#2a3850}
 .mo-pt{font-family:'Space Mono',monospace;font-size:26px;font-weight:700;color:var(--gold);margin:6px 0}
-.mo-p{font-size:11px;color:#9bbbd8;line-height:1.65;margin-bottom:14px}
+.mo-p{font-size:15px;color:#9bbbd8;line-height:1.65;margin-bottom:14px}
 
 #flash{position:absolute;inset:0;pointer-events:none;z-index:5;opacity:0;transition:opacity .4s}
 #bottom-bar{display:flex;align-items:center;gap:10px;padding:5px 14px;
   border-top:1px solid var(--b1);background:var(--panel);flex-shrink:0;min-height:26px}
-#chip{font-family:'Space Mono',monospace;font-size:9px;padding:2px 8px;
+#chip{font-family:'Space Mono',monospace;font-size:12px;padding:2px 8px;
   border-radius:3px;border:1px solid var(--b1);color:#5a7a9a;white-space:nowrap;
   flex-shrink:0;transition:all .25s}
-#msgbar{flex:1;font-size:11px;font-family:'Space Mono',monospace;color:var(--dim);
+#msgbar{flex:1;font-size:14px;font-family:'Space Mono',monospace;color:var(--dim);
   white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
 ::-webkit-scrollbar{width:3px}::-webkit-scrollbar-track{background:var(--bg)}::-webkit-scrollbar-thumb{background:var(--b2)}
 
-/* ═══ NEWTON'S CANNON INTRO ═══ */
-#cannon-intro{position:fixed;inset:0;z-index:100;background:#060810;display:flex;overflow:hidden}
-#cannon-cv{flex:1;display:block;background:linear-gradient(180deg,#0a0f20 0%,#060810 100%)}
-#cannon-panel{width:360px;flex-shrink:0;background:var(--panel);border-left:1px solid var(--b1);
-  padding:32px 30px;display:flex;flex-direction:column;overflow-y:auto}
-#cannon-logo{font-size:11px;font-weight:700;letter-spacing:.22em;color:var(--acc);margin-bottom:6px}
-#cannon-hdr{font-size:15px;font-weight:600;color:var(--wht);margin-bottom:18px;letter-spacing:.02em}
-#cannon-body{font-size:12px;color:#9bbbd8;line-height:1.7;margin-bottom:24px}
+
+#cannon-flash{position:absolute;left:50%;bottom:24px;transform:translateX(-50%);
+  font-family:'Oxanium',sans-serif;font-size:26px;font-weight:800;letter-spacing:.04em;
+  text-align:center;pointer-events:none;opacity:0;transition:opacity .25s;
+  text-shadow:0 0 24px currentColor;z-index:3;white-space:nowrap;
+  padding:10px 22px;background:rgba(6,10,20,.6);border-radius:8px;
+  backdrop-filter:blur(3px)}
+#cannon-flash.show{opacity:1;animation:cannonFlashPop .45s ease-out}
+@keyframes cannonFlashPop{
+  0%{transform:translateX(-50%) scale(.6);opacity:0}
+  60%{transform:translateX(-50%) scale(1.08);opacity:1}
+  100%{transform:translateX(-50%) scale(1);opacity:1}
+}
+/* ═══ NEWTON'S CANNON INTRO — compact layout that fits narrow viewports ═══ */
+#cannon-intro{position:fixed;inset:0;z-index:100;background:#060810;
+  display:flex;flex-direction:column;overflow:hidden}
+#cannon-cv-wrap{flex:1;position:relative;min-height:0;
+  background:linear-gradient(180deg,#0a0f20 0%,#060810 100%)}
+#cannon-cv{position:absolute;inset:0;width:100%;height:100%;display:block}
+/* Overlay panel sits on top of the canvas area, bottom-right */
+#cannon-copy{position:absolute;top:18px;left:18px;max-width:380px;pointer-events:none}
+#cannon-logo{font-size:14px;font-weight:700;letter-spacing:.22em;color:var(--acc);margin-bottom:4px}
+#cannon-hdr{font-size:18px;font-weight:600;color:var(--wht);margin-bottom:10px;letter-spacing:.02em}
+#cannon-body{font-size:14px;color:#9bbbd8;line-height:1.6;
+  background:rgba(10,13,26,.88);padding:10px 13px;border-radius:6px;
+  border:1px solid var(--b1);backdrop-filter:blur(4px)}
 #cannon-body i{color:var(--gold);font-style:italic}
-#cannon-ctrl{background:#06090f;border:1px solid var(--b1);border-radius:7px;padding:14px 16px;margin-bottom:18px}
-.cannon-row{display:flex;justify-content:space-between;align-items:baseline;margin-bottom:8px}
-.cannon-lbl{font-size:10px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:#6a88a8}
-.cannon-val{font-family:'Space Mono',monospace;font-size:12px;font-weight:700;color:var(--wht)}
-#cannon-spd{width:100%;height:4px;-webkit-appearance:none;appearance:none;background:#1a2840;
-  border-radius:2px;outline:none;cursor:pointer;margin:2px 0}
-#cannon-spd::-webkit-slider-thumb{-webkit-appearance:none;width:16px;height:16px;border-radius:50%;
-  background:var(--acc);border:2px solid #06090f;cursor:pointer;box-shadow:0 0 8px #3d8fff66}
-.cannon-hint{font-size:10px;color:#5a7a9a;margin-top:6px;line-height:1.5}
-#cannon-status{margin-bottom:22px}
-.cs-row{display:flex;align-items:center;gap:9px;padding:6px 0;font-size:11px;color:#3a5470;transition:color .3s}
+#cannon-body b{color:var(--acc)}
+/* States indicator floats top-right */
+#cannon-status{position:absolute;top:18px;right:18px;
+  background:rgba(10,13,26,.88);padding:10px 13px;border-radius:6px;
+  border:1px solid var(--b1);backdrop-filter:blur(4px);pointer-events:none}
+.cs-row{display:flex;align-items:center;gap:10px;padding:6px 0;font-size:14px;
+  color:#3a5470;transition:color .25s}
 .cs-row.active{color:var(--wht);font-weight:600}
-.cs-dot{width:8px;height:8px;border-radius:50%;background:#1a2840;transition:all .3s;flex-shrink:0}
-#cs-fall.active .cs-dot{background:var(--red);box-shadow:0 0 8px var(--red)}
-#cs-orbit.active .cs-dot{background:var(--grn);box-shadow:0 0 8px var(--grn)}
-#cs-escape.active .cs-dot{background:var(--gold);box-shadow:0 0 8px var(--gold)}
-#cannon-go{margin-top:auto;background:var(--acc);border:none;border-radius:6px;color:#03060e;
-  padding:13px;font-family:'Oxanium',sans-serif;font-size:13px;font-weight:700;
+.cs-dot{width:7px;height:7px;border-radius:50%;background:#1a2840;
+  transition:all .25s;flex-shrink:0}
+#cs-fall.active .cs-dot{background:var(--red);box-shadow:0 0 6px var(--red)}
+#cs-orbit.active .cs-dot{background:var(--grn);box-shadow:0 0 6px var(--grn)}
+#cs-escape.active .cs-dot{background:var(--gold);box-shadow:0 0 6px var(--gold)}
+/* Fixed-height control bar at the bottom — slider + button always visible */
+#cannon-ctrl-bar{flex-shrink:0;background:var(--panel);
+  border-top:2px solid var(--acc);padding:14px 20px;
+  display:flex;gap:16px;align-items:center}
+#cannon-ctrl{flex:1;min-width:0}
+.cannon-row{display:flex;justify-content:space-between;align-items:baseline;margin-bottom:6px}
+.cannon-lbl{font-size:13px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:#6a88a8}
+.cannon-val{font-family:'Space Mono',monospace;font-size:16px;font-weight:700;color:var(--wht)}
+#cannon-spd{width:100%;height:4px;-webkit-appearance:none;appearance:none;background:#1a2840;
+  border-radius:2px;outline:none;cursor:pointer;display:block}
+#cannon-spd::-webkit-slider-thumb{-webkit-appearance:none;width:16px;height:16px;border-radius:50%;
+  background:var(--acc);border:2px solid var(--panel);cursor:pointer;box-shadow:0 0 8px #3d8fff66}
+.cannon-hint{font-size:13px;color:#5a7a9a;margin-top:4px;letter-spacing:.02em}
+#cannon-go{flex-shrink:0;background:var(--acc);border:none;border-radius:5px;color:#03060e;
+  padding:14px 24px;font-family:'Oxanium',sans-serif;font-size:15px;font-weight:700;
   letter-spacing:.08em;cursor:pointer;text-transform:uppercase;transition:all .15s;
-  opacity:.45;pointer-events:none}
-#cannon-go.ready{opacity:1;pointer-events:all;box-shadow:0 0 24px #3d8fff44}
-#cannon-go.ready:hover{background:#5aaeff}
+  box-shadow:0 0 18px #3d8fff44;white-space:nowrap}
+#cannon-go:hover{background:#5aaeff;transform:translateY(-1px);box-shadow:0 0 28px #3d8fff66}
+
+/* "Try it out" arrow pointing at the cannon speed slider */
+#cannon-try{position:absolute;bottom:calc(100% + 12px);left:4px;
+  display:flex;flex-direction:column;align-items:flex-start;
+  pointer-events:none;animation:tryPulse 1.6s ease-in-out infinite}
+#cannon-try-label{background:var(--gold);color:#1a1000;
+  padding:6px 12px;border-radius:5px;font-size:13px;font-weight:700;
+  font-family:'Oxanium',sans-serif;letter-spacing:.04em;white-space:nowrap;
+  box-shadow:0 2px 16px rgba(240,192,48,.45)}
+#cannon-try-arrow{width:0;height:0;margin-left:24px;margin-top:-1px;
+  border-left:7px solid transparent;border-right:7px solid transparent;
+  border-top:10px solid var(--gold)}
+@keyframes tryPulse{
+  0%,100%{transform:translateY(0)}
+  50%{transform:translateY(-4px)}
+}
+#cannon-ctrl{position:relative}
+@media (max-width:640px){
+  #cannon-copy{max-width:calc(100% - 36px)}
+  #cannon-try-label{font-size:11px;padding:5px 10px}
+  #cannon-status{top:auto;bottom:12px;right:12px}
+  #cannon-ctrl-bar{flex-direction:column;align-items:stretch;gap:10px}
+  #cannon-go{width:100%}
+}
 </style>
 </head>
 <body>
@@ -224,6 +383,43 @@ input[type=range].g::-webkit-slider-thumb{background:var(--gold)}
   <div id="cv-wrap">
     <canvas id="cv"></canvas>
     <div id="flash"></div>
+    <!-- Mission intro card — shown at start of each mission -->
+    <div id="mission-intro" class="hidden">
+      <div id="mi-card">
+        <div id="mi-num">MISSION 1 OF 5</div>
+        <div id="mi-name">Match the ISS orbit</div>
+        <div id="mi-desc"></div>
+        <button id="mi-ok">Got it →</button>
+      </div>
+    </div>
+    <!-- First-orbit-miss callout (points at RESET button) -->
+    <div id="miss-callout" class="hidden">
+      <div id="mc-card">
+        <div id="mc-text"></div>
+        <button id="mc-dismiss">Got it</button>
+      </div>
+      <div id="mc-arrow"></div>
+    </div>
+    <!-- Telemetry fact callout (points at a telemetry cell) -->
+    <div id="telem-fact" class="hidden">
+      <div id="tf-card">
+        <div id="tf-text"></div>
+        <button id="tf-dismiss">Got it</button>
+      </div>
+      <div id="tf-arrow"></div>
+    </div>
+    <!-- Simulation speed selector (bottom-left of canvas) -->
+    <div id="sim-speed">
+      <span class="ss-label">SPEED</span>
+      <button class="ss-btn active" data-mult="1">1×</button>
+      <button class="ss-btn" data-mult="1.5">1.5×</button>
+      <button class="ss-btn" data-mult="2">2×</button>
+    </div>
+    <!-- Floating hint widget (bottom-right of canvas) -->
+    <div id="hint-widget">
+      <div id="hint-box" style="display:none"></div>
+      <button id="btn-hint" onclick="showHint()">💡 Stuck? Show hint</button>
+    </div>
     <div id="overlay" class="h">
       <div id="modal">
         <div class="mo-i" id="mo-i">🚀</div>
@@ -255,24 +451,19 @@ input[type=range].g::-webkit-slider-thumb{background:var(--gold)}
       <div class="sec">
         <div class="slbl">Telemetry</div>
         <div class="tgrid">
-          <div class="tb"><div class="tl">Altitude</div><div class="tv" id="t-alt">—</div></div>
-          <div class="tb"><div class="tl">Velocity</div><div class="tv" id="t-vel">—</div></div>
-          <div class="tb"><div class="tl">Orbit Type</div><div class="tv" id="t-typ">—</div></div>
-          <div class="tb"><div class="tl">Eccentricity</div><div class="tv" id="t-ecc">—</div></div>
-          <div class="tb"><div class="tl">Apoapsis</div><div class="tv" id="t-apo">—</div></div>
-          <div class="tb"><div class="tl">Periapsis</div><div class="tv" id="t-per">—</div></div>
+          <div class="tb" id="tb-alt"><div class="tl">Altitude</div><div class="tv" id="t-alt">—</div></div>
+          <div class="tb" id="tb-vel"><div class="tl">Velocity</div><div class="tv" id="t-vel">—</div></div>
+          <div class="tb" id="tb-typ"><div class="tl">Orbit Type</div><div class="tv" id="t-typ">—</div></div>
+          <div class="tb" id="tb-ecc"><div class="tl">Eccentricity</div><div class="tv" id="t-ecc">—</div></div>
+          <div class="tb" id="tb-apo"><div class="tl">Apoapsis</div><div class="tv" id="t-apo">—</div></div>
+          <div class="tb" id="tb-per"><div class="tl">Periapsis</div><div class="tv" id="t-per">—</div></div>
         </div>
       </div>
 
       <div class="sec grow">
         <div class="slbl">Physics</div>
-        <div id="guide" style="font-size:11px;color:#7a98b8;line-height:1.7"></div>
-        <div style="margin-top:10px">
-          <button class="btn" id="btn-hint" style="font-size:10px;padding:5px 0" onclick="showHint()">💡 STUCK? SHOW HINT</button>
-          <div id="hint-box" style="display:none;margin-top:6px;font-family:'Space Mono',monospace;
-            font-size:10px;color:var(--gold);background:#f0c03012;border:1px solid #f0c03030;
-            border-radius:4px;padding:6px 8px;line-height:1.5"></div>
-        </div>
+        <div id="guide" style="font-size:14px;color:#7a98b8;line-height:1.7"></div>
+
       </div>
     </div>
 
@@ -288,16 +479,21 @@ input[type=range].g::-webkit-slider-thumb{background:var(--gold)}
           <span class="cb-label">Speed</span>
           <span class="cb-val" id="d-spd">17,500 mph</span>
         </div>
-        <input type="range" id="sl-spd" min="3000" max="36000" value="17500" step="100">
-        <div class="cb-hint">17,500 = circular orbit · 25,000 = escape</div>
+        <div class="slider-wrap">
+          <input type="range" id="sl-spd" min="3000" max="36000" value="17500" step="100">
+          <div class="spd-mark spd-orb" title="17,500 mph — circular orbit"></div>
+          <div class="spd-mark spd-esc" title="25,000 mph — escape velocity"></div>
+        </div>
       </div>
       <div class="cb-ctrl">
         <div class="cb-row">
           <span class="cb-label">Angle</span>
           <span class="cb-val gold" id="d-ang">0°</span>
         </div>
-        <input type="range" class="g" id="sl-ang" min="-80" max="80" value="0" step="1">
-        <div class="cb-hint">0° = tangential · drag the canvas to aim</div>
+        <div class="slider-wrap">
+          <input type="range" class="g" id="sl-ang" min="-80" max="80" value="0" step="1">
+          <div class="slider-zero-mark" title="0°"></div>
+        </div>
       </div>
     </div>
     <div class="cb-divider"></div>
@@ -310,6 +506,59 @@ input[type=range].g::-webkit-slider-thumb{background:var(--gold)}
 <div id="bottom-bar"><div id="chip">READY</div><div id="msgbar">▸ Drag from Earth or use sliders to aim, then press LAUNCH.</div></div>
 </div>
 
+<!-- ═══ TUTORIAL OVERLAY (viewport-fixed) ═══ -->
+<div id="tut" style="display:none">
+  <div id="tut-dim"></div>
+  <div id="tut-tip">
+    <div id="tut-tip-arrow"></div>
+    <div id="tut-dots"></div>
+    <div id="tut-ico"></div>
+    <div id="tut-ttl"></div>
+    <div id="tut-msg"></div>
+    <div id="tut-btns">
+      <button id="tut-advance" onclick="tutNext()">Next →</button>
+      <button id="tut-dismiss" onclick="tutDismiss()">Skip tutorial</button>
+    </div>
+  </div>
+</div>
+
+<!-- ═══ NEWTON'S CANNON INTRO (shown first) ═══ -->
+<div id="cannon-intro" style="display:flex">
+  <div id="cannon-cv-wrap">
+    <canvas id="cannon-cv"></canvas>
+    <div id="cannon-flash"></div>
+    <div id="cannon-copy">
+      <div id="cannon-logo">🎯 NEWTON'S CANNON</div>
+      <div id="cannon-hdr">A thought experiment from 1687</div>
+      <div id="cannon-body">
+        Newton imagined firing a cannonball from a mountaintop. Too slow, it falls back.
+        At just the right speed, it falls <i>around</i> Earth forever — that's <b>orbit</b>.
+        Faster still, it escapes entirely. Drag the slider to experiment.
+      </div>
+    </div>
+    <div id="cannon-status">
+      <div class="cs-row" id="cs-fall"><span class="cs-dot"></span>Too slow — falls back</div>
+      <div class="cs-row" id="cs-orbit"><span class="cs-dot"></span>Just right — orbits</div>
+      <div class="cs-row" id="cs-escape"><span class="cs-dot"></span>Too fast — escapes</div>
+    </div>
+  </div>
+  <div id="cannon-ctrl-bar">
+    <div id="cannon-ctrl">
+      <div id="cannon-try">
+        <div id="cannon-try-label">👇 Try it! Change cannonball speed here</div>
+        <div id="cannon-try-arrow"></div>
+      </div>
+      <div class="cannon-row">
+        <span class="cannon-lbl">Cannonball speed</span>
+        <span class="cannon-val" id="cannon-val">Just right</span>
+      </div>
+      <input type="range" id="cannon-spd" min="0" max="100" value="55" step="1">
+      <div class="cannon-hint">Drag to change launch speed</div>
+    </div>
+    <button id="cannon-go" onclick="cannonDone()">START THE MISSION →</button>
+  </div>
+</div>
+
 <script>
 // ═══════════════════════════════════════════════════════════════════════════
 // MISSION DEFINITIONS
@@ -319,10 +568,12 @@ input[type=range].g::-webkit-slider-thumb{background:var(--gold)}
 // ═══════════════════════════════════════════════════════════════════════════
 const MISSION_DEFS = [
   {
-    name:"Circular Orbit",
-    desc:"Three stars orbit at ISS altitude. Achieve a circular orbit to sweep through all of them.",
+    zoom:1.0,
+    name:"Match the ISS orbit",
+    desc:"The International Space Station orbits Earth in a perfect circle at about 17,500 mph. Three stars float at ISS altitude — match the orbit and sweep through all of them.",
     guide:"At the right sideways speed, a spacecraft falls toward Earth but the ground curves away just as fast — it never lands. That's orbit. Too slow and it falls back; too fast and the orbit stretches into an ellipse. All three stars are at the same altitude, so one speed works.",
     hint:"Match the ISS orbit speed: 17,500 mph at 0°. Zero angle means purely sideways thrust — any tilt wastes energy fighting gravity.",
+    telemFact:{target:"tb-typ", msg:"Watch the Orbit Type — CIRCULAR means perfectly matched speed!"},
     stars:[
       {rf:1.00, angle:-0.455, pts:300, col:'#f0c030', label:'LEO-A'},
       {rf:1.00, angle:1.746,  pts:300, col:'#f0c030', label:'LEO-B'},
@@ -330,10 +581,12 @@ const MISSION_DEFS = [
     ]
   },
   {
+    zoom:0.85,
     name:"Hohmann Transfer",
     desc:"Stars at a higher altitude. An elliptical transfer orbit will reach them — but only at the right speed.",
     guide:"A Hohmann transfer is the most fuel-efficient way to reach a higher orbit. More speed stretches your orbit into an ellipse, pushing the far end (apoapsis) outward. The stars sit at your apoapsis — the farthest point of the ellipse. Go too fast and you overshoot; too slow and the apoapsis falls short.",
     hint:"You need your apoapsis to just reach the star ring. Try around 19,600 mph at 0°. Watch the telemetry: apoapsis climbs as you increase speed.",
+    telemFact:{target:"tb-vel", msg:"Notice how the spacecraft gets FASTER the closer it is to Earth!"},
     stars:[
       {rf:1.418, angle:0.448,  pts:350, col:'#3d8fff', label:'HTO-A'},
       {rf:1.497, angle:2.485,  pts:350, col:'#3d8fff', label:'HTO-B'},
@@ -341,10 +594,12 @@ const MISSION_DEFS = [
     ]
   },
   {
+    zoom:0.55,
     name:"High Ellipse",
     desc:"Four stars spread across a wide elliptical orbit. The path sweeps from low altitude to very high.",
     guide:"Elliptical orbits are fastest at periapsis (closest point) and slowest at apoapsis (farthest). The faster you launch, the wider and more elongated the ellipse. The stars mark specific points along one particular ellipse — speed and angle together determine whether you thread through all four.",
     hint:"Try around 21,000 mph at 0°. The eccentricity in the telemetry will climb above 0.5, showing a highly elongated orbit.",
+    telemFact:{target:"tb-ecc", msg:"Eccentricity near 0 = circle. Near 1 = stretched-out ellipse!"},
     stars:[
       {rf:1.675, angle:0.326,  pts:400, col:'#2edc7a', label:'HEO-A'},
       {rf:2.566, angle:1.497,  pts:400, col:'#2edc7a', label:'HEO-B'},
@@ -353,20 +608,26 @@ const MISSION_DEFS = [
     ]
   },
   {
+    zoom:0.42,
+    moonZoom:1.0,
     name:"Moon Flyby",
     desc:"Two stars near the Moon. You need enough speed to escape Earth's gravity and enough aim to get there.",
     guide:"Escape velocity is the speed at which gravity can no longer pull you back — around 25,000 mph near Earth. Raw speed isn't enough though: the Moon is in a specific direction, so your angle matters just as much. The dotted prediction line shows your full path before you commit to launching.",
     hint:"You need escape velocity (~25,000 mph) and a negative angle to arc toward the Moon. Adjust your angle until the prediction line curves toward the Moon.",
+    telemFact:{target:"tb-apo", msg:"Apoapsis reads ∞ when you escape — gravity can no longer pull you back!"},
     stars:[
       {rf:3.286, angle:-0.234, pts:500, col:'#a060ff', label:'Deep-A'},
       {rf:2.082, angle:-0.555, pts:800, col:'#a060ff', label:'Lunar'},
     ]
   },
   {
+    zoom:0.45,
+    moonZoom:0.92,
     name:"Lunar Intercept",
     desc:"Three stars orbit the Moon itself — and the Moon is moving. Time your launch so your path intersects the stars as they come around.",
     guide:"This is the real challenge of deep space navigation: you can't aim at where something is now — you must aim at where it will be. The Moon orbits Earth, and the stars orbit the Moon. Both are moving while your rocket travels. Watch the stars' positions and think about where they'll be in a few seconds when your rocket arrives.",
     hint:"Fire at ~25,000 mph aimed slightly toward the Moon (~-20°). The stars orbit the Moon — wait for a gap to open in the right direction before launching, so a star is facing your approach when you arrive.",
+    telemFact:{target:"tb-alt", msg:"Altitude climbs fast at high speeds — watch it skyrocket!"},
     moonOrbit:true,
     stars:[
       {rf:'moon', angle:0,           pts:800, col:'#a060ff', label:'Lunar-A', moonOrbitR:0.18, moonOrbitA:0},
@@ -389,13 +650,17 @@ function layout(){
   W=wrap.clientWidth; H=wrap.clientHeight;
   canvas.width=W; canvas.height=H;
   EX=W*0.43; EY=H*0.52;
-  ER=Math.max(44,Math.min(78,H*0.13));
-  // ISS_R is 1.55× ER for visual clarity.
-  // GM is set so circV(ISS_R) = reference "17500 mph" speed.
-  ISS_R=ER*1.55;
-  GEO_R=Math.min(ER*4.8,W*0.38);
-  MOON_D=Math.min(W*0.34,H*0.40);
-  MOON_R=Math.max(13,ER*0.22);
+  // Per-mission zoom factor (1.0 = default close zoom, <1.0 = zoomed out)
+  const def=MISSION_DEFS[missionIdx]||{};
+  const zoom=def.zoom||1.0;
+  // Base Earth radius, scaled by zoom
+  ER=Math.max(30,Math.min(110,H*0.19*zoom));
+  ISS_R=ER*1.60;
+  GEO_R=Math.min(ER*4.0,W*0.36);
+  // Moon distance also scales with zoom so far-away moon missions fit
+  const moonZoom=def.moonZoom||1.0;
+  MOON_D=Math.min(W*0.36*moonZoom, H*0.42*moonZoom);
+  MOON_R=Math.max(14,ER*0.24);
   const T=400;
   const vc=2*Math.PI*ISS_R/T;
   GM=vc*vc*ISS_R;
@@ -455,9 +720,11 @@ function integrate(x,y,vx,vy,dt){
   return{x:x+nvx*dt,y:y+nvy*dt,vx:nvx,vy:nvy};
 }
 
-function stepRocket(){
-  const N=14, dt=1/N;
-  for(let i=0;i<N;i++){
+function stepRocket(mult){
+  // mult: 1, 1.5, 2 — scales forward time, keeps sub-step dt constant for stability
+  const steps = Math.round(14*mult); // 14, 21, 28 integration sub-steps
+  const dt = 1/14; // same dt as 1x → numerical stability preserved
+  for(let i=0;i<steps;i++){
     const r=integrate(rocket.x,rocket.y,rocket.vx,rocket.vy,dt);
     rocket.x=r.x; rocket.y=r.y; rocket.vx=r.vx; rocket.vy=r.vy;
   }
@@ -467,6 +734,7 @@ function stepRocket(){
 // STATE
 // ═══════════════════════════════════════════════════════════════════════════
 let simSpd=17500, simAng=0;
+let simMult=1; // animation speed multiplier (1x, 1.5x, 2x)
 let rocket=null, trail=[];
 let predPts=[];
 let state='idle'; // idle|flying|orbit|crash|escape
@@ -474,6 +742,8 @@ let frame=0, animId=null, running=false;
 let moonA=-0.55, moonVA=0.0078; // full orbit ~800 frames
 let dragging=false, dragPt=null;
 let recentR=[];
+let firstOrbitMissShown=false;
+let launchAngStart=null, cumAng=0, lastAng=null;
 
 let missionIdx=0, totalScore=0, totalStarsEarned=0;
 let bestStarsPerMission={}; // missionIdx -> best stars collected in one run
@@ -544,13 +814,32 @@ function predict(){
   const lv=launchVec();
   let cx=lv.x,cy=lv.y,cvx=lv.vx,cvy=lv.vy;
   const pts=[{x:cx,y:cy}];
+  const startX=lv.x, startY=lv.y;
+  // Angle of start vector from Earth center
+  const startAng=Math.atan2(startY-EY,startX-EX);
+  let lastAng=startAng, unwrapped=0; // cumulative angle swept around Earth
+  let farEnough=false; // set true after moving at least 30 px from start
   for(let i=0;i<3500;i++){
     const r=integrate(cx,cy,cvx,cvy,1);
     cx=r.x;cy=r.y;cvx=r.vx;cvy=r.vy;
     const dr=cx-EX,dy2=cy-EY,dist=Math.sqrt(dr*dr+dy2*dy2);
     if(dist<ER){pts.push({x:cx,y:cy,hit:true});break;}
-    const pd=Math.sqrt((cx-EX)**2+(cy-EY)**2);
-    if(pd>MOON_D*3.2||cx<-80||cx>W+80||cy<-80||cy>H+80){pts.push({x:cx,y:cy,esc:true});break;}
+    if(dist>MOON_D*3.2||cx<-80||cx>W+80||cy<-80||cy>H+80){pts.push({x:cx,y:cy,esc:true});break;}
+    // Track angular motion around Earth to detect one full orbit
+    const curAng=Math.atan2(cy-EY,cx-EX);
+    let dAng=curAng-lastAng;
+    if(dAng>Math.PI) dAng-=2*Math.PI;
+    if(dAng<-Math.PI) dAng+=2*Math.PI;
+    unwrapped+=dAng;
+    lastAng=curAng;
+    // After moving at least 30 px from start, start checking for orbit completion
+    const dxFromStart=cx-startX, dyFromStart=cy-startY;
+    const distFromStart=Math.sqrt(dxFromStart*dxFromStart+dyFromStart*dyFromStart);
+    if(!farEnough && distFromStart>30) farEnough=true;
+    // Stop after one full revolution (±2π) — prevents drawing the orbit on top of itself
+    if(farEnough && Math.abs(unwrapped)>=2*Math.PI){
+      pts.push({x:cx,y:cy}); break;
+    }
     if(i%3===0)pts.push({x:cx,y:cy});
   }
   predPts=pts;
@@ -582,9 +871,9 @@ function draw(){
     ctx.beginPath(); ctx.arc(mn.x+fx*MOON_R,mn.y+fy*MOON_R,fr*MOON_R,0,Math.PI*2);
     ctx.fillStyle='rgba(40,50,70,.5)'; ctx.fill();
   });
-  ctx.fillStyle='rgba(162,180,200,.6)';
-  ctx.font=`bold ${Math.max(8,MOON_R*.55)}px 'Space Mono',monospace`;
-  ctx.textAlign='center'; ctx.fillText('MOON',mn.x,mn.y+MOON_R+11);
+  ctx.fillStyle='rgba(180,200,222,.75)';
+  ctx.font=`bold ${Math.max(10,MOON_R*.6)}px 'Space Mono',monospace`;
+  ctx.textAlign='center'; ctx.fillText('MOON',mn.x,mn.y+MOON_R+13);
   // Lunar orbit ring for M5
   if(MISSION_DEFS[missionIdx]&&MISSION_DEFS[missionIdx].moonOrbit&&mStars.length){
     const orbitR=mStars[0].orbitR||MOON_R*4;
@@ -618,8 +907,8 @@ function draw(){
     // Star shape
     drawStar(s.x,s.y,7*pulse,s.col);
     // Label
-    ctx.fillStyle=s.col+'aa'; ctx.font="8px 'Space Mono',monospace";
-    ctx.textAlign='center'; ctx.fillText(s.label,s.x,s.y+16);
+    ctx.fillStyle=s.col+'cc'; ctx.font="10px 'Space Mono',monospace";
+    ctx.textAlign='center'; ctx.fillText(s.label,s.x,s.y+18);
   });
 
   // Capture animation for recently caught stars
@@ -647,15 +936,18 @@ function draw(){
   ctx.restore();
   ctx.beginPath(); ctx.arc(EX,EY,ER,0,Math.PI*2);
   ctx.strokeStyle='#2e68c0'; ctx.lineWidth=1.2; ctx.stroke();
-  ctx.fillStyle='rgba(160,200,255,.55)'; ctx.font="10px 'Space Mono',monospace";
-  ctx.textAlign='center'; ctx.fillText('EARTH',EX,EY+3);
+  ctx.fillStyle='rgba(180,210,255,.65)';
+  const _ef=Math.max(13,ER*0.24);
+  ctx.font=`bold ${_ef}px 'Space Mono',monospace`;
+  ctx.textAlign='center'; ctx.textBaseline='middle';
+  ctx.fillText('EARTH',EX,EY+_ef*0.1); ctx.textBaseline='alphabetic';
 
   // ISS dot
   const ia=frame*0.017;
   const issx=EX+Math.cos(ia)*ISS_R, issy=EY+Math.sin(ia)*ISS_R;
   ctx.beginPath(); ctx.arc(issx,issy,2.5,0,Math.PI*2); ctx.fillStyle='#2edc7a'; ctx.fill();
-  ctx.fillStyle='rgba(46,220,122,.5)'; ctx.font="8px 'Space Mono',monospace";
-  ctx.textAlign='left'; ctx.fillText('ISS',issx+4,issy-3);
+  ctx.fillStyle='rgba(46,220,122,.7)'; ctx.font="10px 'Space Mono',monospace";
+  ctx.textAlign='left'; ctx.fillText('ISS',issx+5,issy-4);
 
   // Prediction (idle)
   if(state==='idle'&&predPts.length>1){
@@ -821,7 +1113,7 @@ function showPartialModal(){
   const isLast=missionIdx>=MISSION_DEFS.length-1;
   document.getElementById('mo-i').textContent=starsCollected===mStars.length?'🌟':'⭐';
   document.getElementById('mo-h').textContent=`${starsCollected} / ${mStars.length} STARS`;
-  document.getElementById('mo-st').textContent='★'.repeat(starsCollected)+'☆'.repeat(mStars.length-starsCollected);
+  { const ms=document.getElementById('mo-st'); ms.innerHTML=''; for(let i=0;i<mStars.length;i++){ const sp=document.createElement('span'); sp.textContent='★'; sp.className=i<starsCollected?'collected':'missed'; ms.appendChild(sp);} }
   document.getElementById('mo-pt').textContent='+'+totalScore+' total';
   document.getElementById('mo-p').textContent=starsCollected===mStars.length-1
     ?'So close! One more star to go — or move on.'
@@ -857,7 +1149,7 @@ function showFinalScore(){
   ];
   document.getElementById('mo-i').textContent='🏆';
   document.getElementById('mo-h').textContent='MISSION LOG COMPLETE';
-  document.getElementById('mo-st').textContent='★'.repeat(rating)+'☆'.repeat(5-rating);
+  { const ms=document.getElementById('mo-st'); ms.innerHTML=''; for(let i=0;i<5;i++){ const sp=document.createElement('span'); sp.textContent='★'; sp.className=i<rating?'collected':'missed'; ms.appendChild(sp);} }
   document.getElementById('mo-pt').textContent=totalScore.toLocaleString()+' pts';
   document.getElementById('mo-p').textContent=
     `${totalStarsEarned} of ${totalPossible} stars collected. ${msgs[rating]}`;
@@ -882,7 +1174,7 @@ function triggerMissionComplete(){
   setChip('COMPLETE!','orb');
   document.getElementById('mo-i').textContent=['🌟','🔭','🛰️','🌕','🏆'][missionIdx]||'✅';
   document.getElementById('mo-h').textContent='MISSION COMPLETE!';
-  document.getElementById('mo-st').textContent='★'.repeat(mStars.length);
+  { const ms=document.getElementById('mo-st'); ms.innerHTML=''; for(let i=0;i<mStars.length;i++){ const sp=document.createElement('span'); sp.textContent='★'; sp.className='collected'; ms.appendChild(sp);} }
   document.getElementById('mo-pt').textContent='+'+(totalScore)+' total';
   document.getElementById('mo-p').textContent='All '+mStars.length+' stars collected! +'+bonusPts+' bonus.';
   const isLast=missionIdx>=MISSION_DEFS.length-1;
@@ -898,13 +1190,13 @@ function triggerMissionComplete(){
 // MAIN LOOP
 // ═══════════════════════════════════════════════════════════════════════════
 function loop(){
-  frame++; moonA+=moonVA;
+  frame++; moonA+=moonVA*simMult;
 
   // Update moon-orbiting stars — each star orbits the moon independently
   mStars.forEach(s=>{
     if(s.rf==='moon'){
       const mn=moonXY();
-      s.orbitAngle=(s.orbitAngle||0)+0.045; // ~140 frames per orbit
+      s.orbitAngle=(s.orbitAngle||0)+0.045*simMult; // ~140 frames per orbit @ 1x
       s.x=mn.x+Math.cos(s.orbitAngle)*s.orbitR;
       s.y=mn.y+Math.sin(s.orbitAngle)*s.orbitR;
     }
@@ -913,7 +1205,7 @@ function loop(){
   draw();
 
   if((state==='flying'||state==='orbit')&&rocket){
-    stepRocket();
+    stepRocket(simMult);
     trail.push({x:rocket.x,y:rocket.y});
     if(trail.length>1000)trail.shift();
 
@@ -964,6 +1256,22 @@ function loop(){
         recentR=recentR.slice(50);
       }
     }
+
+    // Track angular sweep since launch (around Earth)
+    if(launchAngStart!==null){
+      const curAng=Math.atan2(rocket.y-EY,rocket.x-EX);
+      let dAng=curAng-lastAng;
+      if(dAng>Math.PI)dAng-=2*Math.PI;
+      if(dAng<-Math.PI)dAng+=2*Math.PI;
+      cumAng+=dAng;
+      lastAng=curAng;
+      // First orbit miss: swept ≥ 360° and still have uncaptured stars
+      if(!firstOrbitMissShown && Math.abs(cumAng)>=2*Math.PI*0.98
+         && mStars.some(s=>!s.captured) && starsCollected<mStars.length){
+        firstOrbitMissShown=true;
+        showFirstOrbitMiss();
+      }
+    }
   }
 
   if(running||captureParticles.length>0)animId=requestAnimationFrame(loop);
@@ -973,12 +1281,12 @@ function loop(){
 let idleAnimId=null;
 function idleLoop(){
   if(state!=='idle')return;
-  frame++; moonA+=moonVA;
+  frame++; moonA+=moonVA*simMult;
   // Update orbiting stars even in idle so player can see them move
   mStars.forEach(s=>{
     if(s.rf==='moon'){
       const mn=moonXY();
-      s.orbitAngle=(s.orbitAngle||0)+0.045;
+      s.orbitAngle=(s.orbitAngle||0)+0.045*simMult;
       s.x=mn.x+Math.cos(s.orbitAngle)*s.orbitR;
       s.y=mn.y+Math.sin(s.orbitAngle)*s.orbitR;
     }
@@ -993,11 +1301,16 @@ function idleLoop(){
 function doLaunch(){
   if(state!=='idle')return;
   tutSignal('launch'); tutDismiss();
+  // Show the mission's telemetry fact ~2.5s after launch
+  setTimeout(()=>{ if(state!=='idle') showTelemFact(missionIdx); }, 2500);
   if(idleAnimId){cancelAnimationFrame(idleAnimId);idleAnimId=null;}
   if(animId){cancelAnimationFrame(animId);animId=null;}
   const lv=launchVec();
   rocket={x:lv.x,y:lv.y,vx:lv.vx,vy:lv.vy};
   trail=[{x:lv.x,y:lv.y}]; recentR=[];
+  // Reset first-orbit-miss tracking
+  launchAngStart=Math.atan2(lv.y-EY,lv.x-EX);
+  lastAng=launchAngStart; cumAng=0;
   missionDone=false; captureParticles=[];
   state='flying'; running=true;
   setChip('FLYING','fly');
@@ -1011,6 +1324,11 @@ function doReset(){
   if(animId){cancelAnimationFrame(animId);animId=null;}
   if(idleAnimId){cancelAnimationFrame(idleAnimId);idleAnimId=null;}
   rocket=null; trail=[]; recentR=[]; running=false;
+  // Hide any orbit-miss callout when resetting
+  const _mc=document.getElementById('miss-callout');
+  if(_mc) _mc.classList.add('hidden');
+  document.querySelectorAll('.mc-pulse').forEach(el=>el.classList.remove('mc-pulse'));
+  firstOrbitMissShown=false; launchAngStart=null;
   missionDone=false; captureParticles=[];
   state='idle';
   clearTelem(); buildStars();
@@ -1091,19 +1409,24 @@ const TUT_STEPS=[
     autoOn:null
   },
   { ico:'🎯', ttl:'Drag to aim',
-    msg:'Drag outward from Earth. A dotted line shows your predicted path. Try it now — the step advances when you release.',
+    msg:'Drag outward from Earth on the canvas. A dotted line shows your predicted path. Give it a try, then hit Got it.',
     target:'cv', anchor:'canvas-topleft',
     autoOn:'drag'
   },
   { ico:'⚡', ttl:'Speed and angle',
-    msg:'Use these sliders to fine-tune. Speed controls how far you travel. 0° angle is purely sideways — ideal for orbit. Move a slider to continue.',
+    msg:'These sliders fine-tune your launch. Speed sets how far you travel. 0° angle is purely sideways — ideal for orbit.',
     target:'cb-sliders', anchor:'above-bar',
     autoOn:'slider'
   },
   { ico:'🚀', ttl:'Ready to launch!',
-    msg:'Press LAUNCH to fire. If you miss, RESET and try again. The 💡 hint button tells you the exact speed to use.',
+    msg:'Press LAUNCH to fire. If you miss, RESET and try again. The Hint button (💡) tells you the exact speed you should use if you get stuck.',
     target:'btn-go', anchor:'above-bar',
     autoOn:'launch'
+  },
+  { ico:'📖', ttl:'Learn as you go',
+    msg:'This panel on the right shows your mission, live telemetry, and a short physics explainer for every challenge. Check it any time to understand what is happening.',
+    target:'side', anchor:'left-of',
+    autoOn:null
   },
 ];
 let tutStep=0, tutActive=false;
@@ -1124,8 +1447,8 @@ function tutRender(){
   document.getElementById('tut-ttl').textContent=step.ttl;
   document.getElementById('tut-msg').textContent=step.msg;
   const adv=document.getElementById('tut-advance');
-  // Advance button: always 'Next →' for manual steps, 'Got it →' for action steps
-  adv.textContent=step.autoOn?'Got it →':'Next →';
+  // Always a manual advance now
+  adv.textContent='Got it →';
   // Dots
   const dots=document.getElementById('tut-dots');
   dots.innerHTML='';
@@ -1184,6 +1507,26 @@ function tutPosition(step){
       'border-left-color:transparent;border-right-color:transparent;'+
       'border-bottom-color:transparent;border-top-color:var(--acc)';
   }
+  else if(anchor==='left-of'){
+    // Tooltip to the LEFT of the target, with arrow pointing RIGHT at the target
+    left=tr.left-tw-18;
+    top=tr.top+tr.height/2-th/2;
+    // If it would go off the left edge, place it above the target instead
+    if(left<MARGIN){
+      left=Math.max(MARGIN, tr.left+tr.width/2-tw/2-20);
+      top=tr.top-th-16;
+      const ax=Math.min(Math.max(20, tr.left+tr.width/2-left-6), tw-26);
+      arrowCss='display:block;bottom:-12px;left:'+ax+'px;top:auto;'+
+        'border-left-color:transparent;border-right-color:transparent;'+
+        'border-bottom-color:transparent;border-top-color:var(--acc)';
+    } else {
+      // Arrow on right edge of tip, pointing right toward the target
+      const ay=Math.min(Math.max(18, tr.top+tr.height/2-top-6), th-26);
+      arrowCss='display:block;top:'+ay+'px;right:-12px;left:auto;bottom:auto;'+
+        'border-top-color:transparent;border-bottom-color:transparent;'+
+        'border-right-color:transparent;border-left-color:var(--acc)';
+    }
+  }
   else{
     top=tr.top-th-14; left=tr.left+tr.width/2-tw/2;
   }
@@ -1210,23 +1553,162 @@ function tutDismiss(){
 
 // Called from game interactions to auto-advance tutorial
 function tutSignal(event){
-  if(!tutActive) return;
-  const step=TUT_STEPS[tutStep];
-  if(step.autoOn===event){ tutNext(); }
+  // Tutorial no longer auto-advances. User must click "Got it" / "Next".
+  // Kept as a no-op so existing call sites don't error.
 }
 
 function loadMission(idx){
   missionIdx=idx;
+  // Hide any lingering telem-fact and allow it to show for this new mission
+  const tf=document.getElementById('telem-fact');
+  if(tf) tf.classList.add('hidden');
+  document.querySelectorAll('.tf-pulse').forEach(el=>el.classList.remove('tf-pulse'));
+  // Reset first-orbit-miss tracker
+  firstOrbitMissShown=false;
+  // Re-layout with this mission's zoom factor, then rebuild stars at new scale
+  layout();
   const def=MISSION_DEFS[idx];
   document.getElementById('mnum').textContent='MISSION '+(idx+1);
   document.getElementById('mname').textContent=def.name;
   document.getElementById('mdesc').textContent=def.desc;
   document.getElementById('guide').innerHTML=def.guide;
   document.getElementById('hint-box').style.display='none';
-  document.getElementById('btn-hint').textContent='💡 STUCK? SHOW HINT';
+  document.getElementById('btn-hint').textContent='💡 Stuck? Show hint';
   document.getElementById('d-mission').textContent=(idx+1)+' / '+MISSION_DEFS.length;
   doReset();
-  if(idx===0){ document.getElementById('tut').style.display='none'; setTimeout(tutStart,400); }
+  // Show the big mission intro card (covers canvas)
+  showMissionIntro(idx);
+  if(idx===0){ document.getElementById('tut').style.display='none'; }
+}
+
+function showMissionIntro(idx){
+  const def=MISSION_DEFS[idx];
+  document.getElementById('mi-num').textContent='MISSION '+(idx+1)+' OF '+MISSION_DEFS.length;
+  document.getElementById('mi-name').textContent=def.name;
+  document.getElementById('mi-desc').textContent=def.desc;
+  document.getElementById('mission-intro').classList.remove('hidden');
+  document.getElementById('mi-ok').onclick=()=>{
+    document.getElementById('mission-intro').classList.add('hidden');
+    // Mission 1: start the tutorial after the intro is dismissed
+    if(idx===0){ setTimeout(tutStart,200); }
+  };
+}
+
+// Telemetry fact callout — shows during flight, arrows to a specific cell
+let telemFactShown={};
+function showTelemFact(missionIdx){
+  const def=MISSION_DEFS[missionIdx];
+  if(!def || !def.telemFact) return;
+  if(telemFactShown[missionIdx]) return;
+  telemFactShown[missionIdx]=true;
+  const {target, msg}=def.telemFact;
+  const wrap=document.getElementById('telem-fact');
+  const card=document.getElementById('tf-card');
+  const arrow=document.getElementById('tf-arrow');
+  document.getElementById('tf-text').textContent=msg;
+  wrap.classList.remove('hidden');
+  // Highlight the target cell
+  const tgt=document.getElementById(target);
+  if(tgt) tgt.classList.add('tf-pulse');
+  // Position card just to the LEFT of the target (since sidebar is on right)
+  requestAnimationFrame(()=>{
+    const tr=tgt?tgt.getBoundingClientRect():null;
+    if(!tr){ card.style.left='50%'; card.style.top='40%'; card.style.transform='translate(-50%,-50%)'; return; }
+    const W=window.innerWidth, H=window.innerHeight;
+    const cw=card.offsetWidth||300, ch=card.offsetHeight||110;
+    // Place the card to the left of the cell
+    let cx=tr.left-cw-24;
+    let cy=tr.top+tr.height/2-ch/2;
+    // Clamp
+    cx=Math.max(14,cx); cy=Math.max(14,Math.min(cy,H-ch-14));
+    card.style.left=cx+'px'; card.style.top=cy+'px'; card.style.transform='none';
+    // Draw SVG arrow from card's right edge to cell's left edge
+    const ax1=cx+cw-2, ay1=cy+ch/2;
+    const ax2=tr.left-6, ay2=tr.top+tr.height/2;
+    arrow.innerHTML='';
+    const svgNS='http://www.w3.org/2000/svg';
+    const svg=document.createElementNS(svgNS,'svg');
+    svg.setAttribute('width',W); svg.setAttribute('height',H);
+    svg.style.cssText='position:absolute;top:0;left:0;pointer-events:none';
+    const path=document.createElementNS(svgNS,'path');
+    const midX=(ax1+ax2)/2;
+    const d=`M ${ax1} ${ay1} C ${midX} ${ay1}, ${midX} ${ay2}, ${ax2} ${ay2}`;
+    path.setAttribute('d',d);
+    path.setAttribute('stroke','var(--gold)');
+    path.setAttribute('stroke-width','2');
+    path.setAttribute('fill','none');
+    path.setAttribute('stroke-dasharray','4 5');
+    svg.appendChild(path);
+    // Arrowhead
+    const head=document.createElementNS(svgNS,'polygon');
+    head.setAttribute('points',`${ax2-8},${ay2-5} ${ax2},${ay2} ${ax2-8},${ay2+5}`);
+    head.setAttribute('fill','var(--gold)');
+    svg.appendChild(head);
+    arrow.appendChild(svg);
+  });
+  const dismiss=()=>{
+    wrap.classList.add('hidden');
+    if(tgt) tgt.classList.remove('tf-pulse');
+  };
+  document.getElementById('tf-dismiss').onclick=dismiss;
+  // Also auto-dismiss after 8 seconds
+  setTimeout(dismiss, 8000);
+}
+
+// First-orbit-miss callout
+function showFirstOrbitMiss(){
+  const isM5 = missionIdx===4;
+  const msg = isM5
+    ? "First orbit didn't hit the stars. You can RESET now, or wait — the stars keep orbiting the Moon, so a later pass may still catch them."
+    : "Your first orbit missed the stars. Press RESET to try again with a different speed or angle.";
+  const wrap=document.getElementById('miss-callout');
+  const card=document.getElementById('mc-card');
+  const arrow=document.getElementById('mc-arrow');
+  document.getElementById('mc-text').textContent=msg;
+  wrap.classList.remove('hidden');
+  const tgt=document.getElementById('btn-rst');
+  if(tgt) tgt.classList.add('mc-pulse');
+  requestAnimationFrame(()=>{
+    const tr=tgt?tgt.getBoundingClientRect():null;
+    if(!tr){ card.style.left='50%'; card.style.top='40%'; return; }
+    const W=window.innerWidth, H=window.innerHeight;
+    const cw=card.offsetWidth||320, ch=card.offsetHeight||110;
+    // Place the card ABOVE the reset button (since it's at the bottom of the screen)
+    let cx=tr.left+tr.width/2-cw/2;
+    let cy=tr.top-ch-22;
+    cx=Math.max(14,Math.min(cx,W-cw-14));
+    cy=Math.max(14,cy);
+    card.style.left=cx+'px'; card.style.top=cy+'px';
+    // Arrow: from card bottom to button top
+    const ax1=cx+cw/2, ay1=cy+ch-2;
+    const ax2=tr.left+tr.width/2, ay2=tr.top-6;
+    arrow.innerHTML='';
+    const svgNS='http://www.w3.org/2000/svg';
+    const svg=document.createElementNS(svgNS,'svg');
+    svg.setAttribute('width',W); svg.setAttribute('height',H);
+    svg.style.cssText='position:absolute;top:0;left:0;pointer-events:none';
+    const path=document.createElementNS(svgNS,'path');
+    const midY=(ay1+ay2)/2;
+    const d=`M ${ax1} ${ay1} C ${ax1} ${midY}, ${ax2} ${midY}, ${ax2} ${ay2}`;
+    path.setAttribute('d',d);
+    path.setAttribute('stroke','var(--red)');
+    path.setAttribute('stroke-width','2');
+    path.setAttribute('fill','none');
+    path.setAttribute('stroke-dasharray','4 5');
+    svg.appendChild(path);
+    const head=document.createElementNS(svgNS,'polygon');
+    head.setAttribute('points',`${ax2-5},${ay2-8} ${ax2},${ay2} ${ax2+5},${ay2-8}`);
+    head.setAttribute('fill','var(--red)');
+    svg.appendChild(head);
+    arrow.appendChild(svg);
+  });
+  const dismiss=()=>{
+    wrap.classList.add('hidden');
+    if(tgt) tgt.classList.remove('mc-pulse');
+  };
+  document.getElementById('mc-dismiss').onclick=dismiss;
+  // Auto-dismiss if rocket state changes (reset/launch/crash/escape/mission done)
+  setTimeout(()=>{ if(state!=='flying'&&state!=='orbit') dismiss(); }, 12000);
 }
 
 // ═══════════════════════════════════════════════════════════════════════════
@@ -1240,13 +1722,21 @@ function showHint(){
   if(hb.style.display==='none'){
     hb.style.display='block';
     hb.textContent=def.hint;
-    btn.textContent='🙈 HIDE HINT';
+    btn.textContent='🙈 Hide hint';
   } else {
     hb.style.display='none';
-    btn.textContent='💡 STUCK? SHOW HINT';
+    btn.textContent='💡 Stuck? Show hint';
   }
 }
 window.addEventListener('resize',()=>{layout();buildStars();if(state==='idle'){predict();draw();}});
+
+// Sim speed selector
+document.querySelectorAll('.ss-btn').forEach(btn=>{
+  btn.addEventListener('click',()=>{
+    simMult=parseFloat(btn.dataset.mult);
+    document.querySelectorAll('.ss-btn').forEach(b=>b.classList.toggle('active',b===btn));
+  });
+});
 layout();
 // loadMission(0) is called from cannonDone() after the intro
 
@@ -1255,194 +1745,266 @@ layout();
 // ═══════════════════════════════════════════════════════════════════════════
 (function(){
   const cv=document.getElementById('cannon-cv');
+  if(!cv){ window.cannonDone=function(){}; return; }
   const cx=cv.getContext('2d');
-  let cW,cH,cEX,cEY,cER,cGM;
-  let spd=10;
+  if(!cx){ window.cannonDone=function(){
+    document.getElementById('cannon-intro').style.display='none';
+    if(typeof loadMission==='function') loadMission(0);
+  }; return; }
+
+  let cW,cH,cEX,cEY,cER,cGM,circV_r0,escV,r0;
+  let spd=55; // start in orbit zone, nice ellipse
   let cBall=null, cAnimId=null;
-  const cStatesSeen=new Set();
 
   function cLayout(){
-    cW=cv.clientWidth; cH=cv.clientHeight;
+    cW=Math.max(200, cv.clientWidth||window.innerWidth);
+    cH=Math.max(150, cv.clientHeight||window.innerHeight);
     cv.width=cW; cv.height=cH;
-    cER=Math.min(cW,cH)*0.18;
-    cEX=cW*0.5; cEY=cH*0.72;
+    cER=Math.max(40, Math.min(cW,cH)*0.19);
+    cEX=cW*0.5; cEY=cH*0.52;
+    r0=cER+2; // launch radius
     const vc=cER*0.085;
     cGM=vc*vc*cER;
+    circV_r0=Math.sqrt(cGM/r0);
+    escV=circV_r0*Math.sqrt(2);
   }
 
+  // Three clear zones. Physics exactly matches label AND orbits stay on screen.
   function classify(s){
-    if(s<14) return 'fall';
-    if(s<=38) return 'orbit';
+    if(s<=40) return 'fall';
+    if(s<=70) return 'orbit';
     return 'escape';
   }
 
-  function setActiveState(state){
-    ['cs-fall','cs-orbit','cs-escape'].forEach(id=>{
-      document.getElementById(id).classList.toggle('active', id==='cs-'+state);
-    });
-    cStatesSeen.add(state);
-    if(cStatesSeen.size>=2){
-      document.getElementById('cannon-go').classList.add('ready');
+  // Velocity mapped so each zone actually produces the labeled behavior.
+  // Zone 1 (0-40):  0 → 0.96*circV_r0       → always crashes (peri < cER)
+  // Zone 2 (41-70): circV_r0*1.004 → vApoMax → always orbits, apo always on screen
+  // Zone 3 (71-100): escV*1.01 → escV*3      → always escapes
+  //
+  // vApoMax: velocity where apoapsis just reaches 90% of available canvas below Earth.
+  // Computed dynamically from cLayout() so it works at any canvas size.
+  function vApoMax(){
+    const apoMax=(cH-cEY)*0.90;
+    // apo = -cGM/E - r0 where E = v^2/2 - cGM/r0
+    // solve for v: v = sqrt(2*cGM*apoMax / (r0*(apoMax+r0)))
+    return Math.sqrt(2*cGM*apoMax/(r0*(apoMax+r0)));
+  }
+
+  function spdToV(s){
+    if(s<=40){
+      return (s/40)*circV_r0*0.96;
+    } else if(s<=70){
+      const t=(s-40)/30;
+      return circV_r0*1.004 + t*(vApoMax() - circV_r0*1.004);
+    } else {
+      const t=(s-70)/30;
+      return escV*1.01 + t*(escV*3 - escV*1.01);
     }
   }
 
-  function speedToV(s){
-    const vc=cER*0.085;
-    return vc*(s/25);
+  let lastState=null;
+  let flashTimer=null;
+  function flashCannonMsg(text,color){
+    const el=document.getElementById('cannon-flash');
+    el.textContent=text;
+    el.style.color=color;
+    el.classList.remove('show');
+    // restart animation
+    void el.offsetWidth;
+    el.classList.add('show');
+    if(flashTimer) clearTimeout(flashTimer);
+    flashTimer=setTimeout(()=>el.classList.remove('show'), 1400);
+  }
+  function setLabel(state){
+    ['cs-fall','cs-orbit','cs-escape'].forEach(id=>{
+      document.getElementById(id).classList.toggle('active', id==='cs-'+state);
+    });
+    const labels={fall:'Too slow',orbit:'Just right',escape:'Too fast!'};
+    document.getElementById('cannon-val').textContent=labels[state];
+    // Flash a message on every state change
+    if(lastState!==null && state!==lastState){
+      if(state==='orbit'){
+        flashCannonMsg('GOOD JOB! YOU MADE IT ORBIT', '#2edc7a');
+      } else if(state==='fall'){
+        // Entering fall — either from orbit (lost it) or from escape (slowed down a lot)
+        if(lastState==='orbit') flashCannonMsg('OOPS! LOST IT 💥', '#ff4444');
+        else flashCannonMsg('TOO SLOW NOW 💥', '#ff4444');
+      } else if(state==='escape'){
+        if(lastState==='orbit') flashCannonMsg('TOO FAST! FLYING AWAY 🚀', '#f0c030');
+        else flashCannonMsg('ESCAPING EARTH 🚀', '#f0c030');
+      }
+    }
+    lastState=state;
   }
 
   function launchCannon(){
-    if(cAnimId) cancelAnimationFrame(cAnimId);
+    if(cAnimId){cancelAnimationFrame(cAnimId);cAnimId=null;}
     const state=classify(spd);
-    const startX=cEX, startY=cEY-cER-2;
-    const v=speedToV(spd);
-    cBall={x:startX,y:startY,vx:v,vy:0,trail:[{x:startX,y:startY}],state,frames:0};
+    const v=spdToV(spd);
+    cBall={x:cEX, y:cEY-r0, vx:v, vy:0,
+           trail:[{x:cEX, y:cEY-r0}], state, frames:0};
     cAnimId=requestAnimationFrame(cStep);
   }
 
   function cStep(){
-    if(!cBall){ return; }
-    const N=6;
+    if(!cBall) return;
+    // Symplectic Euler, 8 sub-steps per frame
+    const N=8;
+    let crashed=false;
     for(let i=0;i<N;i++){
       const dx=cEX-cBall.x, dy=cEY-cBall.y;
       const r2=dx*dx+dy*dy, r=Math.sqrt(r2);
       const a=cGM/r2;
-      cBall.vx += a*(dx/r)/N;
-      cBall.vy += a*(dy/r)/N;
-      cBall.x += cBall.vx/N;
-      cBall.y += cBall.vy/N;
-      if(r<cER+0.5){ cBall.crashed=true; break; }
+      cBall.vx+=a*(dx/r)/N;
+      cBall.vy+=a*(dy/r)/N;
+      cBall.x+=cBall.vx/N;
+      cBall.y+=cBall.vy/N;
+      if(r<=cER){ crashed=true; break; }
     }
     cBall.frames++;
     cBall.trail.push({x:cBall.x,y:cBall.y});
-    if(cBall.trail.length>900) cBall.trail.shift();
+    if(cBall.trail.length>1200) cBall.trail.shift();
     cDraw();
-    const off = cBall.x<-50||cBall.x>cW+50||cBall.y<-50||cBall.y>cH+50;
-    if(cBall.crashed || off){
-      cAnimId=null; return;
-    }
-    // Orbit case: keep going but stop after several orbits to avoid infinite loop
-    if(cBall.state==='orbit' && cBall.frames>1400){
-      cAnimId=null; return;
-    }
+    if(crashed){cBall.crashed=true; cAnimId=null; return;}
+    const off=cBall.x<-cW*0.5||cBall.x>cW*1.5||cBall.y<-cH*0.5||cBall.y>cH*1.5;
+    if(off){cAnimId=null; return;}
+    // Orbit: stop after ~3 full orbits (enough to show the loop)
+    if(cBall.state==='orbit' && cBall.frames>1800){cAnimId=null; return;}
     cAnimId=requestAnimationFrame(cStep);
   }
 
   function cDraw(){
     cx.clearRect(0,0,cW,cH);
-    // Background stars
-    cx.fillStyle='rgba(180,200,230,.3)';
-    for(let i=0;i<60;i++){
-      const sx=(i*137.5)%cW, sy=(i*71.3)%cH;
-      cx.fillRect(sx,sy,1,1);
+    cx.fillStyle='#060810'; cx.fillRect(0,0,cW,cH);
+
+    // Starfield — matches main game BG_STARS style
+    for(let i=0;i<180;i++){
+      const sx=(i*137.5+7)%cW, sy=(i*71.3+3)%cH;
+      const br=((i*17)%100)/100;
+      const sz=br>0.85?1.4:0.9;
+      const a=0.1+br*0.35;
+      cx.fillStyle=`rgba(190,215,248,${a})`;
+      cx.fillRect(sx,sy,sz,sz);
     }
-    // Earth
-    const eg=cx.createRadialGradient(cEX-cER*0.3,cEY-cER*0.3,cER*0.1,cEX,cEY,cER);
-    eg.addColorStop(0,'#2e6bc0'); eg.addColorStop(1,'#0e2a5a');
-    cx.fillStyle=eg;
-    cx.beginPath(); cx.arc(cEX,cEY,cER,0,Math.PI*2); cx.fill();
-    // Land
-    cx.save(); cx.beginPath(); cx.arc(cEX,cEY,cER,0,Math.PI*2); cx.clip();
-    cx.fillStyle='#1e5238';
-    cx.beginPath(); cx.ellipse(cEX-cER*0.3,cEY+cER*0.1,cER*0.35,cER*0.2,0.3,0,Math.PI*2); cx.fill();
-    cx.beginPath(); cx.ellipse(cEX+cER*0.25,cEY-cER*0.15,cER*0.28,cER*0.16,-0.2,0,Math.PI*2); cx.fill();
-    cx.restore();
-    cx.strokeStyle='#2e68c0'; cx.lineWidth=1;
-    cx.beginPath(); cx.arc(cEX,cEY,cER,0,Math.PI*2); cx.stroke();
-    // Mountain + cannon
-    const mtX=cEX, mtY=cEY-cER;
-    cx.fillStyle='#3a4a5a';
-    cx.beginPath(); cx.moveTo(mtX-14,mtY+2); cx.lineTo(mtX,mtY-12); cx.lineTo(mtX+14,mtY+2); cx.fill();
-    cx.fillStyle='#1a1a22'; cx.fillRect(mtX-5,mtY-18,18,6);
-    cx.fillStyle='#4a4a55'; cx.fillRect(mtX-5,mtY-12,16,4);
-    // Trail
+
+    // Trail — drawn BEHIND Earth
     if(cBall && cBall.trail.length>1){
-      const col = cBall.state==='fall' ? '#ff5566' : cBall.state==='orbit' ? '#2edc7a' : '#f0c030';
-      cx.strokeStyle=col; cx.lineWidth=1.8;
-      cx.beginPath(); cx.moveTo(cBall.trail[0].x,cBall.trail[0].y);
-      for(let i=1;i<cBall.trail.length;i++) cx.lineTo(cBall.trail[i].x,cBall.trail[i].y);
+      const col=cBall.state==='fall'?'#ff4444':cBall.state==='orbit'?'#2edc7a':'#f0c030';
+      cx.strokeStyle=col;
+      cx.lineWidth=cBall.state==='orbit'?2:1.6;
+      if(cBall.state==='orbit'){cx.shadowBlur=6; cx.shadowColor=col;}
+      cx.beginPath();
+      cx.moveTo(cBall.trail[0].x, cBall.trail[0].y);
+      for(let i=1;i<cBall.trail.length;i++) cx.lineTo(cBall.trail[i].x, cBall.trail[i].y);
       cx.stroke();
-      cx.fillStyle=col;
-      cx.beginPath(); cx.arc(cBall.x,cBall.y,3.5,0,Math.PI*2); cx.fill();
+      cx.shadowBlur=0;
     }
-    // Label
-    cx.fillStyle='rgba(180,200,230,.45)';
-    cx.font="10px 'Space Mono',monospace"; cx.textAlign='center';
-    cx.fillText('EARTH', cEX, cEY+cER*0.15);
+
+    // Atmosphere — matches main game
+    const ag=cx.createRadialGradient(cEX,cEY,cER,cEX,cEY,cER+cER*0.35);
+    ag.addColorStop(0,'rgba(50,130,255,.18)'); ag.addColorStop(1,'rgba(0,0,0,0)');
+    cx.beginPath(); cx.arc(cEX,cEY,cER+cER*0.35,0,Math.PI*2);
+    cx.fillStyle=ag; cx.fill();
+
+    // Earth body — identical to main game
+    cx.beginPath(); cx.arc(cEX,cEY,cER,0,Math.PI*2);
+    cx.fillStyle='#152e70'; cx.fill();
+    cx.save(); cx.beginPath(); cx.arc(cEX,cEY,cER,0,Math.PI*2); cx.clip();
+    [[.22,-.42,.22,.14],[-.42,.06,.27,.17],[.52,.28,.16,.10],[-.08,-.54,.20,.11],[.08,.44,.23,.13]]
+      .forEach(([fx,fy,rw,rh])=>{
+        cx.beginPath(); cx.ellipse(cEX+fx*cER,cEY+fy*cER,rw*cER,rh*cER,fx*.5,0,Math.PI*2);
+        cx.fillStyle='#20583a'; cx.fill();
+      });
+    cx.restore();
+    cx.beginPath(); cx.arc(cEX,cEY,cER,0,Math.PI*2);
+    cx.strokeStyle='#2e68c0'; cx.lineWidth=1.2; cx.stroke();
+    // EARTH label (center of planet, bigger)
+    cx.fillStyle='rgba(180,210,255,.7)';
+    const earthFont=Math.max(14,cER*0.22);
+    cx.font=`bold ${earthFont}px 'Space Mono',monospace`;
+    cx.textAlign='center'; cx.textBaseline='middle';
+    cx.fillText('EARTH',cEX,cEY+earthFont*0.1);
+
+    // Mountain + cannon (top of Earth)
+    const mtX=cEX, mtY=cEY-cER;
+    const mSz=Math.max(14,cER*0.18);
+    cx.fillStyle='#3a4a5a';
+    cx.beginPath();
+    cx.moveTo(mtX-mSz,mtY+mSz*0.15);
+    cx.lineTo(mtX,mtY-mSz*0.9);
+    cx.lineTo(mtX+mSz,mtY+mSz*0.15);
+    cx.fill();
+    // Cannon barrel — pointing right (east)
+    cx.fillStyle='#9097a8';
+    cx.save(); cx.translate(mtX,mtY-mSz*0.3); cx.rotate(-0.15);
+    cx.fillRect(0,-mSz*0.2,mSz*1.4,mSz*0.35);
+    cx.restore();
+    cx.fillStyle='#5a606e';
+    cx.beginPath(); cx.arc(mtX,mtY-mSz*0.25,mSz*0.35,0,Math.PI*2); cx.fill();
+
+    // CANNON label with a leader line — floats to the upper-left
+    {
+      const labelFont=Math.max(13,cER*0.17);
+      cx.font=`bold ${labelFont}px 'Space Mono',monospace`;
+      cx.textAlign='right'; cx.textBaseline='alphabetic';
+      const lx=mtX-mSz-10, ly=mtY-mSz*1.1;
+      // Leader line
+      cx.strokeStyle='rgba(200,220,255,.45)'; cx.lineWidth=1.2;
+      cx.beginPath();
+      cx.moveTo(mtX-mSz*0.3,mtY-mSz*0.4);
+      cx.lineTo(lx+5,ly+4);
+      cx.stroke();
+      // Label
+      cx.fillStyle='rgba(220,235,255,.95)';
+      cx.fillText('CANNON',lx,ly);
+    }
+
+    // Ball — drawn ON TOP of Earth
+    if(cBall){
+      const col=cBall.state==='fall'?'#ff4444':cBall.state==='orbit'?'#2edc7a':'#f0c030';
+      const stateLabel=cBall.state==='fall'?'CRASHING':cBall.state==='orbit'?'ORBITING':'ESCAPING';
+      // Glow
+      const bg=cx.createRadialGradient(cBall.x,cBall.y,0,cBall.x,cBall.y,12);
+      bg.addColorStop(0,col+'99'); bg.addColorStop(1,'transparent');
+      cx.beginPath(); cx.arc(cBall.x,cBall.y,12,0,Math.PI*2);
+      cx.fillStyle=bg; cx.fill();
+      // Ball
+      cx.beginPath(); cx.arc(cBall.x,cBall.y,Math.max(3,cER*0.045),0,Math.PI*2);
+      cx.fillStyle=col; cx.fill();
+      // Label floating above the ball (follows it)
+      cx.font="bold 13px 'Space Mono',monospace";
+      cx.textAlign='center'; cx.textBaseline='alphabetic';
+      cx.fillStyle=col;
+      cx.fillText(stateLabel, cBall.x, cBall.y-16);
+    }
   }
 
+  // Slider
   document.getElementById('cannon-spd').addEventListener('input',e=>{
     spd=parseInt(e.target.value);
-    const state=classify(spd);
-    document.getElementById('cannon-val').textContent=
-      ({fall:'Slow',orbit:'Just right',escape:'Too fast!'})[state];
-    setActiveState(state);
+    setLabel(classify(spd));
     launchCannon();
   });
 
   window.addEventListener('resize',()=>{
-    if(document.getElementById('cannon-intro').style.display!=='none'){
+    if(!document.getElementById('cannon-intro').style.display.includes('none')){
       cLayout(); launchCannon();
     }
   });
 
-  cLayout();
-  setActiveState(classify(spd));
-  document.getElementById('cannon-val').textContent='Slow';
-  launchCannon();
+  requestAnimationFrame(()=>{
+    cLayout();
+    setLabel(classify(spd));
+    launchCannon();
+  });
 
   window.cannonDone=function(){
-    if(cAnimId) cancelAnimationFrame(cAnimId);
+    if(cAnimId){cancelAnimationFrame(cAnimId);cAnimId=null;}
     document.getElementById('cannon-intro').style.display='none';
     if(typeof loadMission==='function') loadMission(0);
   };
 })();
 
 </script>
-
-
-<!-- ═══ TUTORIAL OVERLAY (viewport-fixed) ═══ -->
-<div id="tut" style="display:none">
-  <div id="tut-dim"></div>
-  <div id="tut-tip">
-    <div id="tut-tip-arrow"></div>
-    <div id="tut-dots"></div>
-    <div id="tut-ico"></div>
-    <div id="tut-ttl"></div>
-    <div id="tut-msg"></div>
-    <div id="tut-btns">
-      <button id="tut-advance" onclick="tutNext()">Next →</button>
-      <button id="tut-dismiss" onclick="tutDismiss()">Skip tutorial</button>
-    </div>
-  </div>
-</div>
-
-<!-- ═══ NEWTON'S CANNON INTRO (shown first) ═══ -->
-<div id="cannon-intro" style="display:flex">
-  <canvas id="cannon-cv"></canvas>
-  <div id="cannon-panel">
-    <div id="cannon-logo">🎯 NEWTON'S CANNON</div>
-    <div id="cannon-hdr">A thought experiment from 1687</div>
-    <div id="cannon-body">
-      Sir Isaac Newton imagined firing a cannonball horizontally from a mountaintop.
-      If it's too slow, it falls back to Earth. At just the right speed, it falls <i>around</i>
-      Earth forever — that's <b style="color:var(--acc)">orbit</b>. Faster still, and it escapes gravity entirely.
-    </div>
-    <div id="cannon-ctrl">
-      <div class="cannon-row">
-        <span class="cannon-lbl">Cannonball speed</span>
-        <span class="cannon-val" id="cannon-val">Slow</span>
-      </div>
-      <input type="range" id="cannon-spd" min="0" max="100" value="10" step="1">
-      <div class="cannon-hint">Drag the slider to change launch speed and see what happens.</div>
-    </div>
-    <div id="cannon-status">
-      <div class="cs-row" id="cs-fall"><span class="cs-dot"></span>Too slow — falls back to Earth</div>
-      <div class="cs-row" id="cs-orbit"><span class="cs-dot"></span>Just right — stable orbit</div>
-      <div class="cs-row" id="cs-escape"><span class="cs-dot"></span>Too fast — escapes Earth</div>
-    </div>
-    <button id="cannon-go" onclick="cannonDone()">I get it — start the game →</button>
-  </div>
-</div>
 </body>
 </html>
